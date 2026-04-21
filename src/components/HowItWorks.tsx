@@ -65,7 +65,7 @@ export function HowItWorks() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--whatsapp)] px-7 py-4 text-base font-semibold text-white shadow-[0_12px_32px_-10px_color-mix(in_oklab,var(--whatsapp)_60%,transparent)] hover:bg-[var(--whatsapp-deep)] transition-all hover:scale-[1.02]"
           >
-            Começar agora pelo WhatsApp
+            Agendar consulta no WhatsApp
           </a>
         </div>
       </div>

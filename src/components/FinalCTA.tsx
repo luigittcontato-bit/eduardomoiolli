@@ -16,11 +16,11 @@ export function FinalCTA() {
             </div>
 
             <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-[1.05]">
-              Pronto para tratar a causa — e não só os sintomas?
+              Dê o primeiro passo para viver sem dor e dormir melhor
             </h2>
             <p className="mt-5 text-base sm:text-lg text-white/85 max-w-2xl leading-relaxed">
-              Fale agora com a equipe pelo WhatsApp, descreva seu caso e receba a melhor orientação para
-              dar o próximo passo. Atendimento atencioso, sem compromisso para esclarecer dúvidas iniciais.
+              Fale agora com a equipe do <strong className="font-semibold">Dr. Eduardo Moiolli</strong> pelo WhatsApp,
+              descreva seu caso e receba orientação clara sobre o próximo passo — sem compromisso.
             </p>
 
             <div className="mt-9 flex flex-col sm:flex-row gap-3">
@@ -30,7 +30,7 @@ export function FinalCTA() {
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-4 text-base font-semibold text-primary-deep shadow-soft hover:bg-white/95 transition-all hover:scale-[1.02]"
               >
-                Agendar minha consulta
+                Agendar consulta no WhatsApp
                 <ArrowRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-1" />
               </a>
               <a
