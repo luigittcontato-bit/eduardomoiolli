@@ -12,43 +12,43 @@ import { whatsappLink } from "@/lib/site";
 
 const items = [
   {
-    icon: Activity,
-    title: "Disfunção da ATM",
-    desc: "Diagnóstico e tratamento de dores e travamentos da articulação temporomandibular, com abordagem clínica especializada.",
+    icon: Brain,
+    title: "Dor orofacial",
+    desc: "Tratamento de dores no rosto, cabeça e músculos da face que não passam com remédios comuns e atrapalham o seu dia a dia.",
     highlight: true,
   },
   {
-    icon: Brain,
-    title: "Dor Orofacial",
-    desc: "Tratamento de dores faciais persistentes, cefaleias e disfunções musculares que comprometem qualidade de vida.",
+    icon: Activity,
+    title: "Problemas na mandíbula (ATM)",
+    desc: "Cuidado para estalos, travamentos e dores ao abrir a boca ou mastigar — com diagnóstico preciso e alívio duradouro.",
     highlight: true,
   },
   {
     icon: AudioLines,
-    title: "Ronco",
-    desc: "Avaliação e dispositivos intraorais sob medida para reduzir ronco e melhorar a qualidade do sono.",
+    title: "Ronco e apneia do sono",
+    desc: "Aparelhos sob medida que reduzem o ronco e melhoram a respiração durante o sono, devolvendo noites de descanso de verdade.",
     highlight: true,
   },
   {
     icon: Moon,
-    title: "Apneia Obstrutiva do Sono",
-    desc: "Tratamento odontológico da apneia com aparelhos de avanço mandibular, em parceria com médicos do sono.",
+    title: "Distúrbios do sono",
+    desc: "Avaliação completa do sono em parceria com médicos especializados, para tratar a causa e não só o sintoma.",
     highlight: true,
   },
   {
     icon: Smile,
     title: "Ortodontia",
-    desc: "Correção do alinhamento dentário e da mordida com técnicas modernas e planejamento individualizado.",
+    desc: "Alinhamento dos dentes e correção da mordida com técnicas modernas e planejamento individual para cada paciente.",
   },
   {
     icon: Bone,
-    title: "Ortopedia Facial e Funcional",
-    desc: "Tratamento ortopédico dos maxilares para crianças, adolescentes e adultos, corrigindo desequilíbrios funcionais.",
+    title: "Ortopedia funcional dos maxilares",
+    desc: "Tratamento que corrige o crescimento e o equilíbrio da face em crianças, adolescentes e adultos.",
   },
   {
     icon: Sparkles,
-    title: "Harmonização Orofacial",
-    desc: "Procedimentos minimamente invasivos para equilíbrio facial, sempre com critério clínico e foco na saúde.",
+    title: "Harmonização facial",
+    desc: "Procedimentos sutis para equilibrar traços do rosto, sempre com critério clínico e foco na saúde.",
   },
 ];
 
@@ -61,12 +61,12 @@ export function Specialties() {
             Especialidades
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-[1.1]">
-            Tratamento que vai{" "}
-            <span className="text-gradient-primary">muito além do consultório comum</span>
+            Cuidado especializado para o que{" "}
+            <span className="text-gradient-primary">a odontologia comum não resolve</span>
           </h2>
           <p className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Áreas de atuação selecionadas para cuidar de casos que exigem conhecimento clínico aprofundado.
-            Destaque para ATM, dor orofacial, ronco e apneia.
+            Atendimento com foco em <strong className="text-foreground font-semibold">diagnóstico preciso e resultados reais</strong>.
+            Diferencial em dor orofacial, ATM, ronco e apneia do sono.
           </p>
         </div>
 

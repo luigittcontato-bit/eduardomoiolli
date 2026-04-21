@@ -9,18 +9,18 @@ export function Hero() {
         <div className="lg:col-span-7">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary-soft px-3.5 py-1.5 text-xs font-semibold text-primary-deep">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Especialista em ATM, Dor Orofacial, Ronco e Apneia
+            Dr. Eduardo Moiolli — DDS, MSc
           </div>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
-            Tratamentos especializados para{" "}
-            <span className="text-gradient-primary">dor, ronco e saúde facial</span>
+            Especialista em{" "}
+            <span className="text-gradient-primary">dor orofacial, ATM e distúrbios do sono</span>
           </h1>
 
           <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Conduzido pelo <strong className="text-foreground font-semibold">Prof. Eduardo Moiolli (DDS, MSc)</strong>,
-            o consultório oferece tratamento especializado e individualizado para casos que vão muito além
-            da odontologia convencional — com diagnóstico preciso e abordagem clínica de excelência.
+            Tratamentos especializados para melhorar sua qualidade de vida, reduzir dores e melhorar o sono.
+            Atendimento conduzido com foco em <strong className="text-foreground font-semibold">diagnóstico preciso e resultados reais</strong>,
+            indo muito além da odontologia convencional.
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-3 sm:gap-4">

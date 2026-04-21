@@ -32,7 +32,7 @@ export function Header() {
             <Sparkles className="h-4.5 w-4.5 text-primary-foreground" strokeWidth={2.4} />
           </div>
           <div className="leading-tight">
-            <div className="text-[13px] sm:text-sm font-semibold text-foreground">Prof. Eduardo Moiolli</div>
+            <div className="text-[13px] sm:text-sm font-semibold text-foreground">Dr. Eduardo Moiolli</div>
             <div className="text-[10px] sm:text-[11px] text-muted-foreground -mt-0.5">{SITE.credentials}</div>
           </div>
         </a>
@@ -53,9 +53,9 @@ export function Header() {
           href={whatsappLink()}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden sm:inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft hover:bg-[var(--primary-deep)] transition-colors"
+          className="hidden sm:inline-flex items-center justify-center rounded-full bg-[var(--whatsapp)] px-5 py-2.5 text-sm font-semibold text-white shadow-soft hover:bg-[var(--whatsapp-deep)] transition-colors"
         >
-          Agendar consulta
+          Agendar no WhatsApp
         </a>
       </div>
     </header>
