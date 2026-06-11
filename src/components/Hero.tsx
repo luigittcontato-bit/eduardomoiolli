@@ -1,6 +1,7 @@
 import { ArrowRight, ShieldCheck, GraduationCap, Stethoscope, CheckCircle2 } from "lucide-react";
 import { whatsappLink } from "@/lib/site";
-import doctorImg from "@/assets/dr-eduardo-portrait.jpg";
+import doctorAsset from "@/assets/dr-eduardo.jpeg.asset.json";
+const doctorImg = doctorAsset.url;
 
 export function Hero() {
   return (
