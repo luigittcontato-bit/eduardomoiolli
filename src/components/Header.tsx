@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Sparkles, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { whatsappLink, SITE } from "@/lib/site";
+import logoAsset from "@/assets/logo-eduardo.png.asset.json";
 
 const links = [
   { href: "#especialidades", label: "Especialidades" },
