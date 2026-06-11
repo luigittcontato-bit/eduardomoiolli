@@ -11,17 +11,17 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Prof. Eduardo Moiolli (DDS, MSc) — ATM, Dor Orofacial, Ronco e Apneia" },
+      { title: "Prof. Eduardo Moiolli (DDS, MSc) — ATM, Dor Orofacial e Apneia · Rio de Janeiro" },
       {
         name: "description",
         content:
-          "Consultório do Prof. Eduardo Moiolli: especialista em ATM, dor orofacial, ronco, apneia, ortodontia, ortopedia funcional dos maxilares e harmonização orofacial. Agende pelo WhatsApp.",
+          "Consultório Prof. Eduardo Moiolli (CRO 11805-RJ) na Barra da Tijuca, Rio de Janeiro. Especialista em ATM, dor orofacial, ronco, apneia, ortodontia, ortopedia facial e harmonização orofacial. Agende pelo WhatsApp (21) 96725-2288.",
       },
-      { property: "og:title", content: "Prof. Eduardo Moiolli (DDS, MSc) — Consultório Odontológico Especializado" },
+      { property: "og:title", content: "Prof. Eduardo Moiolli (DDS, MSc) — Consultório Odontológico Especializado no Rio" },
       {
         property: "og:description",
         content:
-          "Tratamentos especializados para dor, ronco e saúde facial. Diagnóstico criterioso e atendimento individualizado.",
+          "Tratamentos especializados em dor orofacial, ATM, ronco, apneia e harmonização orofacial. Atendimento na Av. das Américas, 3333 — Barra da Tijuca.",
       },
     ],
   }),
