@@ -1,4 +1,4 @@
-import { ArrowRight, Clock, MapPin, Phone, Instagram } from "lucide-react";
+import { ArrowRight, Clock, MapPin, Phone, AtSign as Instagram } from "lucide-react";
 import { whatsappLink, SITE, mapsEmbedUrl, mapsLink } from "@/lib/site";
 
 export function FinalCTA() {
