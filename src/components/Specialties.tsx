@@ -42,7 +42,7 @@ const items = [
   },
   {
     icon: Bone,
-    title: "Ortopedia funcional dos maxilares",
+    title: "Ortopedia facial e funcional dos maxilares",
     desc: "Tratamento que corrige o crescimento e o equilíbrio da face em crianças, adolescentes e adultos.",
   },
   {
