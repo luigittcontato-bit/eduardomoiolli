@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Sparkles, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { whatsappLink, SITE } from "@/lib/site";
+import logoAsset from "@/assets/logo-eduardo.png.asset.json";
 
 const links = [
   { href: "#especialidades", label: "Especialidades" },
@@ -37,9 +38,11 @@ export function Header() {
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-18 flex items-center justify-between">
         <a href="#top" onClick={() => setOpen(false)} className="flex items-center gap-2.5">
-          <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-primary to-[var(--primary-deep)] flex items-center justify-center shadow-soft">
-            <Sparkles className="h-4.5 w-4.5 text-primary-foreground" strokeWidth={2.4} />
-          </div>
+          <img
+            src={logoAsset.url}
+            alt="Logo Consultório Prof. Eduardo Moiolli"
+            className="h-11 w-11 sm:h-12 sm:w-12 rounded-full object-contain bg-black shadow-soft"
+          />
           <div className="leading-tight">
             <div className="text-[13px] sm:text-sm font-semibold text-foreground">Dr. Eduardo Moiolli</div>
             <div className="text-[10px] sm:text-[11px] text-muted-foreground -mt-0.5">{SITE.credentials}</div>
