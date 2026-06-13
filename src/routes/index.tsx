@@ -37,6 +37,7 @@ function Index() {
         <Hero />
         <Specialties />
         <Trust />
+        <Testimonials />
         <HowItWorks />
         <FinalCTA />
       </main>
