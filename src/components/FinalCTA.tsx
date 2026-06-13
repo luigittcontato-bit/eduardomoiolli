@@ -17,11 +17,13 @@ export function FinalCTA() {
               </div>
 
               <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-[1.05]">
-                Dê o primeiro passo para viver sem dor e dormir melhor
+                Agende a sua avaliação e dê o primeiro passo para uma vida com mais saúde, harmonia e bem-estar
               </h2>
               <p className="mt-5 text-base sm:text-lg text-white/85 max-w-2xl leading-relaxed">
-                Fale agora com a equipe do <strong className="font-semibold">Prof. Eduardo Moiolli</strong> pelo WhatsApp,
-                descreva seu caso e receba orientação clara sobre o próximo passo — sem compromisso.
+                Acreditamos que cada paciente é único. Por isso, nosso planejamento terapêutico é inteiramente individualizado,
+                focado em entender e tratar a raiz do seu problema para entregar resultados duradouros.
+                Seja para voltar a dormir bem, viver livre de dores, melhorar a respiração ou conquistar a estética que você sempre sonhou,
+                estamos prontos para receber você.
               </p>
 
               <div className="mt-8 grid sm:grid-cols-2 gap-3 max-w-xl">

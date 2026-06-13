@@ -19,13 +19,13 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 text-lg sm:text-xl text-foreground/80 max-w-xl leading-snug font-medium">
-            Diagnóstico preciso e tratamento eficaz para dores na face, mandíbula e problemas do sono.
+            Aqui, a sua saúde, o seu bem-estar e a sua qualidade de vida são a nossa prioridade. Atendimento acolhedor, humanizado e de excelência, com foco em resultados reais.
           </p>
 
           <p className="mt-5 text-base text-muted-foreground max-w-xl leading-relaxed">
-            Tratamentos especializados para aliviar dores na face, cabeça e mandíbula, além de melhorar a
-            qualidade do sono. Atendimento focado em{" "}
-            <strong className="text-foreground font-semibold">diagnóstico preciso e resultados reais</strong>.
+            Diagnóstico preciso e tratamento eficaz para dores na face, mandíbula e problemas do sono.
+            Unimos conhecimento científico, tecnologia e conforto para proporcionar soluções integradas que vão além dos dentes —
+            com foco no <strong className="text-foreground font-semibold">reequilíbrio funcional, alívio da dor e qualidade de vida</strong>.
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">

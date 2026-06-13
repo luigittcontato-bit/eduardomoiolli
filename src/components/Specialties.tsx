@@ -14,41 +14,41 @@ const items = [
   {
     icon: Brain,
     title: "Dor orofacial",
-    desc: "Tratamento de dores no rosto, cabeça e músculos da face que não passam com remédios comuns e atrapalham o seu dia a dia.",
+    desc: "Tratamentos conservadores para o alívio de dores de cabeça — que se confundem com enxaqueca pela intensidade —, dores na face, estalos ao mastigar e tensões musculares. Devolvemos o conforto e a função ao seu dia a dia.",
     highlight: true,
   },
   {
     icon: Activity,
-    title: "Problemas na mandíbula (ATM)",
-    desc: "Cuidado para estalos, travamentos e dores ao abrir a boca ou mastigar — com diagnóstico preciso e alívio duradouro.",
+    title: "Disfunção da ATM",
+    desc: "Cuidado especializado para estalos, travamentos e dores ao abrir a boca ou mastigar. Diagnóstico preciso e tratamento direcionado para restaurar a função da articulação temporomandibular.",
     highlight: true,
   },
   {
     icon: AudioLines,
     title: "Ronco e apneia do sono",
-    desc: "Aparelhos sob medida que reduzem o ronco e melhoram a respiração durante o sono, devolvendo noites de descanso de verdade.",
+    desc: "Terapias e dispositivos intraorais sob medida para desobstruir as vias aéreas e regular a respiração durante a noite. Garantimos sono reparador, combatemos o cansaço diurno e protegemos a sua saúde sistêmica.",
     highlight: true,
   },
   {
     icon: Moon,
     title: "Distúrbios do sono",
-    desc: "Avaliação completa do sono em parceria com médicos especializados, para tratar a causa e não só o sintoma.",
+    desc: "Avaliação completa em parceria com médicos especializados para tratar a causa — não só o sintoma — e devolver noites de descanso de verdade.",
     highlight: true,
   },
   {
     icon: Smile,
     title: "Ortodontia",
-    desc: "Alinhamento dos dentes e correção da mordida com técnicas modernas e planejamento individual para cada paciente.",
+    desc: "Correção do posicionamento dos dentes com tecnologias modernas e aparelhos adequados ao seu perfil. Um sorriso bonito e uma oclusão eficiente e saudável.",
   },
   {
     icon: Bone,
     title: "Ortopedia facial e funcional dos maxilares",
-    desc: "Tratamento que corrige o crescimento e o equilíbrio da face em crianças, adolescentes e adultos.",
+    desc: "Intervenções direcionadas ao correto desenvolvimento ósseo, muscular e postural da face. Redirecionamos o crescimento e corrigimos desequilíbrios esqueléticos para promover harmonia facial e mastigatória plena.",
   },
   {
     icon: Sparkles,
-    title: "Harmonização facial",
-    desc: "Procedimentos sutis para equilibrar traços do rosto, sempre com critério clínico e foco na saúde.",
+    title: "Harmonização orofacial",
+    desc: "Procedimentos estéticos e funcionais minimamente invasivos que valorizam a sua beleza natural, prevenem os sinais do envelhecimento e criam o equilíbrio perfeito entre o sorriso e os traços do rosto.",
   },
 ];
 
