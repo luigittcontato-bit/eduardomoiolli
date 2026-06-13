@@ -44,7 +44,7 @@ export function Header() {
             className="h-11 w-11 sm:h-12 sm:w-12 rounded-full object-contain bg-black shadow-soft"
           />
           <div className="leading-tight">
-            <div className="text-[13px] sm:text-sm font-semibold text-foreground">Dr. Eduardo Moiolli</div>
+            <div className="text-[13px] sm:text-sm font-semibold text-foreground">Prof. Eduardo Moiolli</div>
             <div className="text-[10px] sm:text-[11px] text-muted-foreground -mt-0.5">{SITE.credentials}</div>
           </div>
         </a>
