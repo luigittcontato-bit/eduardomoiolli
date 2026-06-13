@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Specialties } from "@/components/Specialties";
 import { Trust } from "@/components/Trust";
+import { Testimonials } from "@/components/Testimonials";
 import { HowItWorks } from "@/components/HowItWorks";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -36,6 +37,7 @@ function Index() {
         <Hero />
         <Specialties />
         <Trust />
+        <Testimonials />
         <HowItWorks />
         <FinalCTA />
       </main>
