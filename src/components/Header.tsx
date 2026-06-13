@@ -68,7 +68,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center justify-center rounded-full bg-[var(--whatsapp)] px-5 py-2.5 text-sm font-semibold text-white shadow-soft hover:bg-[var(--whatsapp-deep)] transition-colors"
           >
-            Agendar no WhatsApp
+            Quero agendar
           </a>
 
           <button
