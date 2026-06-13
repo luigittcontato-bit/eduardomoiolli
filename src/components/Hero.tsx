@@ -1,6 +1,6 @@
 import { ArrowRight, ShieldCheck, GraduationCap, Stethoscope, CheckCircle2 } from "lucide-react";
 import { whatsappLink } from "@/lib/site";
-import doctorAsset from "@/assets/dr-eduardo.jpeg.asset.json";
+import doctorAsset from "@/assets/dr-eduardo-novo.jpeg.asset.json";
 const doctorImg = doctorAsset.url;
 
 export function Hero() {
@@ -87,7 +87,7 @@ export function Hero() {
               alt="Dr. Eduardo Moiolli, DDS, MSc — especialista em dor orofacial, ATM e distúrbios do sono"
               width={1280}
               height={1600}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-[25%_25%]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary-deep/45 via-transparent to-transparent" />
             <div className="absolute bottom-5 left-5 right-5 rounded-2xl bg-background/95 backdrop-blur p-4 border border-border/60 shadow-soft">
