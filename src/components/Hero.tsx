@@ -10,7 +10,7 @@ export function Hero() {
         <div className="lg:col-span-7">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary-soft px-3.5 py-1.5 text-xs font-semibold text-primary-deep">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Dr. Eduardo Moiolli — DDS, MSc
+            Prof. Eduardo Moiolli — DDS, MSc
           </div>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
@@ -31,7 +31,7 @@ export function Hero() {
           <div className="mt-9 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
             <div className="flex flex-col">
               <a
-                href={whatsappLink("Olá! Gostaria de agendar uma avaliação com o Dr. Eduardo Moiolli.")}
+                href={whatsappLink("Olá! Gostaria de agendar uma avaliação com o Prof. Eduardo Moiolli.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-[var(--whatsapp)] px-7 py-4 text-base font-semibold text-white shadow-[0_14px_36px_-10px_color-mix(in_oklab,var(--whatsapp)_65%,transparent)] hover:bg-[var(--whatsapp-deep)] transition-all hover:scale-[1.02]"
@@ -84,7 +84,7 @@ export function Hero() {
           <div className="relative rounded-3xl overflow-hidden border border-border shadow-glow aspect-[4/5] bg-surface">
             <img
               src={doctorImg}
-              alt="Dr. Eduardo Moiolli, DDS, MSc — especialista em dor orofacial, ATM e distúrbios do sono"
+              alt="Prof. Eduardo Moiolli, DDS, MSc — especialista em dor orofacial, ATM e distúrbios do sono"
               width={1280}
               height={1600}
               className="h-full w-full object-cover object-[35%_30%]"
@@ -96,7 +96,7 @@ export function Hero() {
                   <ShieldCheck className="h-5 w-5 text-primary" strokeWidth={2.4} />
                 </div>
                 <div className="leading-tight">
-                  <div className="text-sm font-semibold text-foreground">Dr. Eduardo Moiolli — DDS, MSc</div>
+                  <div className="text-sm font-semibold text-foreground">Prof. Eduardo Moiolli — DDS, MSc</div>
                   <div className="text-xs text-muted-foreground">Diagnóstico criterioso e plano de tratamento sob medida</div>
                 </div>
               </div>
