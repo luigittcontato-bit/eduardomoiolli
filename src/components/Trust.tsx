@@ -29,16 +29,26 @@ export function Trust() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
           <div className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-4">
-            Por que escolher o consultório
+            Sobre o consultório
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-[1.1]">
-            Cuidado clínico de <span className="text-gradient-primary">excelência</span>, do diagnóstico ao resultado.
+            Bem-vindo(a) ao <span className="text-gradient-primary">Consultório Prof. Eduardo Moiolli</span>
           </h2>
-          <p className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed">
-            O consultório foi pensado para oferecer um atendimento diferenciado, com tempo dedicado a cada
-            paciente, tecnologia adequada e condutas guiadas por ciência. Isso faz diferença, principalmente
-            em casos de dor crônica, ATM, ronco e apneia.
-          </p>
+          <div className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed space-y-4">
+            <p>
+              Aqui, a sua saúde, o seu bem-estar e a sua qualidade de vida são a nossa prioridade.
+              Nosso espaço foi cuidadosamente planejado para oferecer um atendimento acolhedor, humanizado e de excelência,
+              unindo <strong className="text-foreground font-semibold">conhecimento científico, tecnologia e muito conforto</strong>.
+            </p>
+            <p>
+              O Prof. Eduardo Moiolli é especialista e mestre em ortodontia e ortopedia facial e funcional dos maxilares,
+              atuando nas áreas de disfunção da ATM, dor orofacial, distúrbios do sono, harmonização orofacial, ortodontia e ortopedia facial.
+            </p>
+            <p>
+              Nosso compromisso é proporcionar soluções de saúde integradas que vão muito além dos dentes,
+              focando no reequilíbrio funcional da sua face, no alívio da dor, na melhora do seu sono e na estética do seu sorriso.
+            </p>
+          </div>
         </div>
 
         <div className="lg:col-span-7 grid sm:grid-cols-2 gap-4 sm:gap-5">
