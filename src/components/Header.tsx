@@ -107,7 +107,7 @@ export function Header() {
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex items-center justify-center rounded-full bg-[var(--whatsapp)] px-5 py-3.5 text-base font-semibold text-white shadow-soft hover:bg-[var(--whatsapp-deep)] transition-colors"
           >
-            Agendar no WhatsApp
+            Falar pelo WhatsApp
           </a>
         </nav>
       </div>

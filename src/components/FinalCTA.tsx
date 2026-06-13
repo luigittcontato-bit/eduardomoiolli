@@ -69,7 +69,7 @@ export function FinalCTA() {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-4 text-base font-semibold text-primary-deep shadow-soft hover:bg-white/95 transition-all hover:scale-[1.02]"
                 >
-                  Agendar consulta no WhatsApp
+                  Iniciar atendimento
                   <ArrowRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a
