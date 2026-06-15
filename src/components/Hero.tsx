@@ -18,6 +18,20 @@ export function Hero() {
             <span className="text-gradient-primary">dor orofacial, ATM e distúrbios do sono</span>
           </h1>
 
+          {/* Prova de confiança — visível apenas no mobile, logo abaixo do título */}
+          <div className="mt-6 flex lg:hidden flex-wrap items-center gap-x-5 gap-y-2">
+            {[
+              "44 anos de experiência",
+              "Mestre e Especialista em 4 áreas",
+              "Formação internacional (Miami, EUA)",
+            ].map((t) => (
+              <div key={t} className="inline-flex items-center gap-1.5 text-[13px] text-foreground/75">
+                <CheckCircle2 className="h-4 w-4 text-primary" strokeWidth={2.4} />
+                <span className="font-medium">{t}</span>
+              </div>
+            ))}
+          </div>
+
           <p className="mt-5 text-lg sm:text-xl text-foreground/80 max-w-xl leading-snug font-medium">
             Aqui, a sua saúde, o seu bem-estar e a sua qualidade de vida são a nossa prioridade. Atendimento acolhedor, humanizado e de excelência, com foco em resultados reais.
           </p>
