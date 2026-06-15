@@ -66,7 +66,7 @@ export function Hero() {
           </div>
 
           {/* Prova de confiança */}
-          <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 max-w-xl">
+          <div className="mt-8 hidden lg:flex flex-wrap items-center gap-x-5 gap-y-2 max-w-xl">
             {[
               "44 anos de experiência",
               "Mestre e Especialista em 4 áreas",
