@@ -1,6 +1,9 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import ogImageAsset from "@/assets/og-eduardo.jpg.asset.json";
+
+const OG_IMAGE_URL = `https://eduardomoiolli.lovable.app${ogImageAsset.url}`;
 
 function NotFoundComponent() {
   return (
@@ -40,6 +43,11 @@ export const Route = createRootRoute({
       { name: "twitter:creator", content: "@eduardomoiolli" },
       { name: "twitter:title", content: "Consultório Prof. Eduardo Moiolli — Barra da Tijuca, RJ" },
       { name: "twitter:description", content: "44 anos de experiência em ATM, dor orofacial, ronco, apneia e harmonização orofacial. Atendimento particular na Barra da Tijuca." },
+      { property: "og:image", content: OG_IMAGE_URL },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: "Consultório Prof. Eduardo Moiolli — Dor Orofacial, ATM, Ronco e Apneia · Barra da Tijuca, Rio de Janeiro" },
+      { name: "twitter:image", content: OG_IMAGE_URL },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
