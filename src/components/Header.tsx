@@ -6,6 +6,7 @@ import logoAsset from "@/assets/logo-eduardo.png.asset.json";
 const links = [
   { href: "#especialidades", label: "Especialidades" },
   { href: "#confianca", label: "Sobre" },
+  { href: "#formacao", label: "Formação" },
   { href: "#como-funciona", label: "Como funciona" },
   { href: "#contato", label: "Contato" },
 ];
