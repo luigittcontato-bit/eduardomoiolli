@@ -1,4 +1,5 @@
 import { SITE, mapsLink } from "@/lib/site";
+import { Link } from "@tanstack/react-router";
 import { AtSign, MapPin, Phone } from "lucide-react";
 import logoAsset from "@/assets/logo-eduardo.png.asset.json";
 
@@ -53,8 +54,8 @@ export function Footer() {
             <li><a href="#especialidades" className="text-muted-foreground hover:text-primary transition-colors">Especialidades</a></li>
             <li><a href="#confianca" className="text-muted-foreground hover:text-primary transition-colors">Sobre</a></li>
             <li><a href="#contato" className="text-muted-foreground hover:text-primary transition-colors">Contato</a></li>
-            <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Política de Privacidade</a></li>
-            <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Termos de Uso</a></li>
+            <li><Link to="/privacidade" className="text-muted-foreground hover:text-primary transition-colors">Política de Privacidade</Link></li>
+            <li><Link to="/termos" className="text-muted-foreground hover:text-primary transition-colors">Termos de Uso</Link></li>
           </ul>
         </div>
       </div>
