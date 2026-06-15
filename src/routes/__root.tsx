@@ -1,6 +1,9 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import ogImageAsset from "@/assets/og-eduardo.jpg.asset.json";
+
+const OG_IMAGE_URL = `https://eduardomoiolli.lovable.app${ogImageAsset.url}`;
 
 function NotFoundComponent() {
   return (
