@@ -54,8 +54,9 @@ export function Hero() {
           {/* Prova de confiança */}
           <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 max-w-xl">
             {[
-              "Atendimento especializado em dor orofacial e sono",
-              "Formação: DDS, MSc",
+              "44 anos de experiência",
+              "Mestre e Especialista em 4 áreas",
+              "Formação internacional (Miami, EUA)",
             ].map((t) => (
               <div key={t} className="inline-flex items-center gap-1.5 text-[13px] text-foreground/75">
                 <CheckCircle2 className="h-4 w-4 text-primary" strokeWidth={2.4} />

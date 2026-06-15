@@ -32,21 +32,22 @@ export function Trust() {
             Sobre o consultório
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-[1.1]">
-            Bem-vindo(a) ao <span className="text-gradient-primary">Consultório Prof. Eduardo Moiolli</span>
+            Sobre o <span className="text-gradient-primary">Prof. Eduardo Moiolli</span>
           </h2>
           <div className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              Aqui, a sua saúde, o seu bem-estar e a sua qualidade de vida são a nossa prioridade.
-              Nosso espaço foi cuidadosamente planejado para oferecer um atendimento acolhedor, humanizado e de excelência,
-              unindo <strong className="text-foreground font-semibold">conhecimento científico, tecnologia e muito conforto</strong>.
+              O Prof. Eduardo Moiolli é graduado em Odontologia pela <strong className="text-foreground font-semibold">UNIFLU</strong>,
+              Mestre em Ortodontia e Ortopedia Facial pela <strong className="text-foreground font-semibold">Universidade Paulista</strong>,
+              com <strong className="text-foreground font-semibold">44 anos de experiência</strong> clínica e acadêmica.
             </p>
             <p>
-              O Prof. Eduardo Moiolli é especialista e mestre em ortodontia e ortopedia facial e funcional dos maxilares,
-              atuando nas áreas de disfunção da ATM, dor orofacial, distúrbios do sono, harmonização orofacial, ortodontia e ortopedia facial.
+              O atendimento é <strong className="text-foreground font-semibold">exclusivamente particular</strong>,
+              com consulta inicial de aproximadamente <strong className="text-foreground font-semibold">60 minutos</strong>,
+              dedicada a uma avaliação criteriosa e ao planejamento individualizado do seu tratamento.
             </p>
             <p>
-              Nosso compromisso é proporcionar soluções de saúde integradas que vão muito além dos dentes,
-              focando no reequilíbrio funcional da sua face, no alívio da dor, na melhora do seu sono e na estética do seu sorriso.
+              O consultório fica na <strong className="text-foreground font-semibold">Av. das Américas, 3333 — Grupo 1501,
+              Barra da Tijuca, Rio de Janeiro</strong>, com estacionamento no local.
             </p>
           </div>
         </div>
