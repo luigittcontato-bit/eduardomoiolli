@@ -4,10 +4,22 @@ import consultorio04 from "@/assets/consultorio-04.jpg.asset.json";
 import recepcao from "@/assets/consultorio-recepcao.jpg.asset.json";
 
 const photos = [
-  { src: consultorio01.url, alt: "Sala clínica com vista panorâmica da Barra da Tijuca" },
-  { src: recepcao.url, alt: "Sala de espera do consultório" },
-  { src: consultorio04.url, alt: "Consultório iluminado com vista para a cidade" },
-  { src: consultorio03.url, alt: "Paciente em atendimento no consultório" },
+  {
+    src: consultorio01.url,
+    alt: "Sala clínica do consultório do Prof. Eduardo Moiolli na Barra da Tijuca, Rio de Janeiro, com vista panorâmica",
+  },
+  {
+    src: recepcao.url,
+    alt: "Sala de espera do consultório odontológico do Prof. Eduardo Moiolli na Av. das Américas, Barra da Tijuca",
+  },
+  {
+    src: consultorio04.url,
+    alt: "Consultório odontológico iluminado com vista para a Barra da Tijuca — Prof. Eduardo Moiolli",
+  },
+  {
+    src: consultorio03.url,
+    alt: "Paciente em atendimento de ATM e dor orofacial no consultório do Prof. Eduardo Moiolli",
+  },
 ];
 
 export function Office() {
@@ -37,6 +49,10 @@ export function Office() {
                 src={photo.src}
                 alt={photo.alt}
                 loading="lazy"
+                decoding="async"
+                width={480}
+                height={600}
+                sizes="(min-width: 1024px) 300px, (min-width: 768px) 25vw, 50vw"
                 className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
               />
             </div>
