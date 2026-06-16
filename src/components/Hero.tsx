@@ -14,8 +14,8 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
-            Especialista em{" "}
-            <span className="text-gradient-primary">dor orofacial, ATM e distúrbios do sono</span>
+            Especializado no atendimento da{" "}
+            <span className="text-gradient-primary">Dor Orofacial, da Disfunção da Articulação Temporomandibular, Ronco e Apneia do Sono e Harmonização Orofacial</span>
           </h1>
 
           {/* Prova de confiança — visível apenas no mobile, logo abaixo do título */}
