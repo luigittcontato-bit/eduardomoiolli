@@ -7,13 +7,13 @@ export function Hero() {
   return (
     <section id="top" className="relative bg-hero-gradient pt-28 sm:pt-32 lg:pt-36 pb-20 lg:pb-28 overflow-hidden">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-12 gap-12 lg:gap-12 items-center">
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-7 min-w-0">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary-soft px-3.5 py-1.5 text-xs font-semibold text-primary-deep">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
             Prof. Eduardo Moiolli — DDS, MSc
           </div>
 
-          <h1 className="mt-6 text-2xl leading-[1.2] sm:text-5xl sm:leading-[1.08] lg:text-6xl lg:leading-[1.05] font-bold tracking-tight text-foreground [overflow-wrap:anywhere]">
+          <h1 className="mt-6 text-2xl leading-[1.2] sm:text-5xl sm:leading-[1.08] lg:text-6xl lg:leading-[1.05] font-bold tracking-tight text-foreground break-words hyphens-auto">
             Especializado no atendimento da{" "}
             <span className="text-gradient-primary">Dor Orofacial, da Disfunção da Articulação Temporomandibular, Ronco e Apneia do Sono e Harmonização Orofacial</span>
           </h1>
