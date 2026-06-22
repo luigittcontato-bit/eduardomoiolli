@@ -13,7 +13,7 @@ export function Hero() {
             Prof. Eduardo Moiolli — DDS, MSc
           </div>
 
-          <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
+          <h1 className="mt-6 text-[1.75rem] leading-[1.15] sm:text-5xl sm:leading-[1.08] lg:text-6xl lg:leading-[1.05] font-bold tracking-tight text-foreground break-words hyphens-auto">
             Especializado no atendimento da{" "}
             <span className="text-gradient-primary">Dor Orofacial, da Disfunção da Articulação Temporomandibular, Ronco e Apneia do Sono e Harmonização Orofacial</span>
           </h1>
