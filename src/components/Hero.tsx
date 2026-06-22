@@ -13,7 +13,7 @@ export function Hero() {
             Prof. Eduardo Moiolli — DDS, MSc
           </div>
 
-          <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
+          <h1 className="mt-6 text-2xl leading-[1.2] sm:text-5xl sm:leading-[1.08] lg:text-6xl lg:leading-[1.05] font-bold tracking-tight text-foreground [overflow-wrap:anywhere]">
             Especializado no atendimento da{" "}
             <span className="text-gradient-primary">Dor Orofacial, da Disfunção da Articulação Temporomandibular, Ronco e Apneia do Sono e Harmonização Orofacial</span>
           </h1>
@@ -79,16 +79,16 @@ export function Hero() {
             ))}
           </div>
 
-          <div className="mt-10 grid grid-cols-3 gap-4 max-w-lg">
+          <div className="mt-10 grid grid-cols-3 gap-2 sm:gap-4 max-w-lg">
             {[
               { icon: GraduationCap, label: "Mestre (MSc)", sub: "Formação avançada" },
               { icon: Stethoscope, label: "+7 áreas", sub: "de especialização" },
               { icon: ShieldCheck, label: "Atendimento", sub: "individualizado" },
             ].map((it) => (
-              <div key={it.label} className="rounded-2xl border border-border/70 bg-card p-3.5 shadow-card">
+              <div key={it.label} className="rounded-2xl border border-border/70 bg-card p-2.5 sm:p-3.5 shadow-card min-w-0">
                 <it.icon className="h-5 w-5 text-primary mb-2" strokeWidth={2.2} />
-                <div className="text-[13px] font-semibold text-foreground leading-tight">{it.label}</div>
-                <div className="text-[11px] text-muted-foreground leading-tight">{it.sub}</div>
+                <div className="text-[12px] sm:text-[13px] font-semibold text-foreground leading-tight break-words">{it.label}</div>
+                <div className="text-[11px] text-muted-foreground leading-tight break-words">{it.sub}</div>
               </div>
             ))}
           </div>
